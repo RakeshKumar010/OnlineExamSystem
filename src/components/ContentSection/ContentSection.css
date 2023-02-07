@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contentSection{
+   
+    height: 80vh;
+    border: 2px solid black;
+}
+nav{
+    background-color:rgb(72, 111, 238);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 5px;
+}
+main{
+    display: flex;
+    column-gap: 40px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.questionpallete{
+    
+    height: 50vh;
+    background-color: rgb(175, 206, 235);
+}
+.heading{
+    background-color: rgb(72, 111, 238);
+    font-size: medium;
+    color: white;
+    padding: 5px;
+}
+button{
+    padding: 5px 13.7px;
+    border: none;
+    margin: 2px;
+}
+.green{
+    background-color: rgb(29, 192, 29);
+}
+.pink{
+    background-color: rgb(206, 47, 158);
+}
+.yellow{
+    background-color: yellow;
+}
+.white{
+    background-color: white;
+}
+.purple{
+    background-color: purple;
+}
+.gray{
+    background-color: gray;
+}

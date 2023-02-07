@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.footerMenu{
+    height: 12vh;
+   display: flex;
+   align-items: center;
+
+}
+.footerMenu ul{
+   display: flex;
+   gap: 20px;
+    list-style-type: none;
+}
+ul li{
+    padding: 5px 10px;
+   background-color: rgb(72, 111, 238);
+
+}
+ul .lastMenu{
+    background-color: blue;
+}

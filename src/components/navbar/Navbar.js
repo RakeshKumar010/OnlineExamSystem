@@ -1,8 +1,11 @@
 import Link from 'next/link'
+
 import './Navbar.css'
 
 const Navbar = () => {
+
   return (
+    
     <>
     <div className="navbar">
         <ul>

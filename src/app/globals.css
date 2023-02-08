@@ -2,19 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 .secondRow{
     display: flex;
-    gap: 20px;
-   
-
+    flex-wrap: wrap;
+    
 }
 .firstDiv{
-    width: 85vw;
+    width: 82vw;
 }
 .secondDiv{
-    width: 15vw;
+    width: 16.7vw;
+    margin: auto;
     
 
 }
 
+@media screen and (max-width: 847px) {
+    
+    
+    .firstDiv,.secondDiv{
+        width: 100%;
+    }
+    .secondDiv{
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+  }

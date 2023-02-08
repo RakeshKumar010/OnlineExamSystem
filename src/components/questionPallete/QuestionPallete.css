@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 .questionpallete{
-    
-    height: 50vh;
+    margin: 1vw 0 1vw 1vw;
+    height: 45vh;
     background-color: rgb(175, 206, 235);
+    border: 1px solid rgb(0, 0, 0);
+
 }
 .heading{
     background-color: rgb(72, 111, 238);
@@ -37,3 +39,11 @@ button{
 .gray{
     background-color: gray;
 }
+
+@media screen and (max-width: 847px) {
+    .questionpallete{
+        height: 30vh;
+        width: 33vw;
+    }
+ 
+  }

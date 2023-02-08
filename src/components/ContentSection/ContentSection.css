@@ -5,8 +5,9 @@
 }
 .contentSection{
    
-    height: 80vh;
-    border: 2px solid black;
+    height: 93vh;
+    border: 1px solid black;
+    box-shadow: 5px 1px 10px  gray;
 }
 nav{
     background-color:rgb(72, 111, 238);
@@ -19,3 +20,11 @@ main{
     display: flex;
     column-gap: 40px;
 }
+
+@media screen and (max-width: 847px) {
+   
+ .contentSection{
+    height: 50vh;
+    overflow: hidden auto;
+ }
+  }

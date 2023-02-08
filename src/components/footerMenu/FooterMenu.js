@@ -8,7 +8,7 @@ const FooterMenu = () => {
     <div className="footerMenu">
         <ul>
             <li>
-                <Link rel="stylesheet" href="./menuFooter/CLear" >CLEAR RESPONSE</Link>
+                <Link rel="stylesheet" href="./menuFooter/CLear" >CLEAR</Link>
             </li>
             <li>
                 <Link rel="stylesheet" href="./menuFooter/Review" >REVIEW</Link>

@@ -4,16 +4,19 @@
     box-sizing: border-box;
 }
 .main{
-    height: 35vh;
+    height: 40vh;
+    margin: 0 0 0.5vw 1vw;
     background-color: rgb(175, 206, 235);
+    border: 1px solid black;
 }
 .legend {
-    height: 51%;
+    height:19vh;
     
 }
 .lagendDiv{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2px;
 }
 .lagendDiv div{
@@ -37,9 +40,16 @@
     position: relative;
 
 }
+/* .btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
 .allquestion button{
     background-color:rgb(72, 111, 238);
-    width: 48%;
+    width: 47%;
+    /* flex-shrink: 1px; */
+    /* width: 7vw; */
     color: white;
 }
 .popuptext {
@@ -47,17 +57,45 @@
     width: 100%;
     height: 30vh;
     background-color: rgb(40, 54, 99);
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
   
     /* Position the tooltip */
     position: absolute;
-    right: 0;
-    top: -30vh;
+     right: 0;
     z-index: 1;
   }
   .popup:hover .popuptext {
     visibility: visible;
+  }
+  .allquestion .btn{
+    margin-top: 6vh;
+  }
+
+  @media screen and (max-width: 847px) {
+    .main{
+        height: 30vh;
+        width: 33vw;
+    margin: 1vw 0 1vw 1vw;
+
+    }
+    .legend{
+    height:15vh;
+
+    }
+   
+    .allquestion .btn {
+        margin-top: 0;
+        
+    }
+    .btn button{
+        font-size: 8px;
+        padding: 0.7vw;
+    }
+    .lagendDiv div{
+       font-size: 10px;
+       font-weight: bold;
+    }
   }

@@ -40,11 +40,11 @@
     position: relative;
 
 }
-/* .btn{
+.btn{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-} */
+}
 .allquestion button{
     background-color:rgb(72, 111, 238);
     width: 47%;

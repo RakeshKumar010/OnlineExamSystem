@@ -8,7 +8,12 @@
     height: 45vh;
     background-color: rgb(175, 206, 235);
     border: 1px solid rgb(0, 0, 0);
-
+   
+}
+.quesbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .heading{
     background-color: rgb(72, 111, 238);
